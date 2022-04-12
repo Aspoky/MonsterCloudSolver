@@ -7,10 +7,10 @@ Python Wrapper for [CapMonsterCloud](https://capmonster.cloud/) [ReCaptcha solve
 ## Usage/Examples
 
 ```python
-import MonsterCloudSolver
+from solver import MonsterCloudSolver
 
-solver = MonsterCloudSolver(API_KEY, SITE_KEY, SITE_URL)
-solution = solver.solve()
+recaptcha = MonsterCloudSolver(API_KEY, SITE_KEY, SITE_URL)
+solution = recaptcha.solve()
 print(solution)
 # 03AGdBq24ROAuRGa . . . .
 ```
