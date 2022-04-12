@@ -1,4 +1,4 @@
-import MonsterCloudSolver from solver
+from solver import MonsterCloudSolver
 
 recaptcha = MonsterCloudSolver(
     'MY_CAP_MONSTER_API_KEY', # API Key for your account
